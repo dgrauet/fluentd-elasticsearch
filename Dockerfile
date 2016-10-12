@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v0.12.29-onbuild
+FROM fluent/fluentd:v0.12.29
 MAINTAINER Damien Grauet <damien.grauet@gmail.com>
 WORKDIR /home/fluent
 ENV PATH /home/fluent/.gem/ruby/2.3.0/bin:$PATH
